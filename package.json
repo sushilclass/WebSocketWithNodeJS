@@ -1,0 +1,37 @@
+{
+    "name": "imegnodeserver",
+    "version": "1.0.0",
+    "description": "Implement Node server with Websocket and Create API",
+    "main": "server.js",
+    "scripts": {
+        "build": "node ./node_modules/typescript/bin/tsc -p ./tsconfig.json",
+        "start": "node ./dist/index.js ",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Express",
+        "API",
+        "MongoDB",
+        "Mongoose"
+    ],
+    "author": "Sushil Kumar",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^13.7.0",
+        "adal-node": "^0.2.1",
+        "body-parser": "^1.19.0",
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "http": "0.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.8.3",
+        "node-fetch": "^2.6.0",
+        "underscore": "^1.9.2",
+        "uuid": "^3.4.0",
+        "ws": "^7.2.1"
+    },
+    "devDependencies": {
+        "typescript": "^3.8.3"
+    }
+}

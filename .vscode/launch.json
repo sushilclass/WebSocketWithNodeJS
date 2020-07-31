@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "env": {
+                "PORT": "4000", //"80",
+                "HOST":"http://localhost",
+                "WSHOST":"ws://localhost",
+                "TEST_SERVER":"false",
+                //development or production
+                "BUILD":"tokenTest"
+            },
+            "program": "${workspaceFolder}\\dist\\index.js",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            // "runtimeArgs": ["--inspect-brk=9230"],
+            // "port": 9230,
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ]
+        }
+    ]
+}

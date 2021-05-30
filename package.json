@@ -29,7 +29,7 @@
         "node-fetch": "^2.6.0",
         "underscore": "^1.9.2",
         "uuid": "^3.4.0",
-        "ws": "^7.2.1"
+        "ws": "^7.4.6"
     },
     "devDependencies": {
         "typescript": "^3.8.3"
